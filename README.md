@@ -2,78 +2,97 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Plantas Medicinais do Brasil e Portugal</title>
+  <title>Plantas Medicinais - Brasil & Portugal</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-green-50 text-green-900">
-  <header class="bg-green-800 text-white p-6 shadow">
-    <div class="max-w-6xl mx-auto">
+<body class="bg-green-50 text-gray-900">
+  <header class="bg-green-800 text-white py-6 px-4 shadow">
+    <div class="max-w-7xl mx-auto">
       <h1 class="text-4xl font-bold">Plantas Medicinais do Brasil e Portugal</h1>
-      <p class="text-green-200 text-lg mt-2">Explore os segredos da natureza com base científica, dicas de cultivo, onde comprar e imagens incríveis</p>
+      <p class="text-green-200 mt-2">Tudo sobre o uso, cultivo e curiosidades das plantas que curam</p>
     </div>
-  </header>  <main class="max-w-6xl mx-auto p-6 space-y-14"><!-- TEMPLATE DE PLANTA -->
-<!-- Cada seção abaixo representa uma planta completa -->
-
-<!-- 1. Camomila -->
-<section class="bg-white rounded-lg shadow p-6">
-  <h2 class="text-2xl font-bold mb-2">Camomila (Matricaria chamomilla)</h2>
-  <img src="images/camomila.jpg" alt="Camomila fresca colhida" class="w-full h-auto rounded mb-4">
-  <p><strong>Origem:</strong> Europa e Ásia Ocidental</p>
-  <p><strong>Benefícios:</strong> Calmante natural, melhora a qualidade do sono, alivia cólicas menstruais, melhora a digestão, tem ação anti-inflamatória e antioxidante.</p>
-  <p><strong>Como plantar:</strong> Use sementes em solo bem drenado, plante sob sol pleno, regue levemente todos os dias. Flores prontas para colheita em cerca de 8 semanas.</p>
-  <p><strong>Onde encontrar:</strong> <a class="text-blue-600 underline" href="https://www.plantei.com.br">Plantei</a>, feiras orgânicas em SP e MG.</p>
-  <p><strong>Referência:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/17533644/" class="text-blue-600 underline">PubMed ID: 17533644</a></p>
+  </header>  <main class="max-w-7xl mx-auto px-4 py-10 space-y-20"><!-- CAMOMILA -->
+<section class="bg-white rounded-xl shadow-lg p-6">
+  <img src="images/camomila.jpg" alt="Camomila" class="rounded-xl w-full h-auto mb-4">
+  <h2 class="text-3xl font-bold text-green-800 mb-2">Camomila (Matricaria chamomilla)</h2>
+  <h3 class="text-xl font-semibold mt-4">Origem</h3>
+  <p>Nativa da Europa e Ásia Ocidental, aclimatada em Portugal e Brasil, especialmente em regiões de clima mais ameno.</p>
+  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
+  <p>Calmante natural, usada em chás para ansiedade, insônia, dores estomacais. Propriedades anti-inflamatórias e digestivas comprovadas cientificamente.</p>
+  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
+  <p>Sol pleno, solo leve, regas leves e regulares. Flores prontas em 8-10 semanas.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde encontrar</h3>
+  <p>Sementes em <a href="https://sementesvivas.bio">sementesvivas.bio</a> (PT) e <a href="https://plantei.com.br">plantei.com.br</a> (BR).</p>
+  <h3 class="text-xl font-semibold mt-4">Onde comprar</h3>
+  <p>Produtos em <a href="https://mundoverde.com.br">Mundo Verde</a>.</p>
 </section>
 
-<!-- 2. Babosa -->
-<section class="bg-white rounded-lg shadow p-6">
-  <h2 class="text-2xl font-bold mb-2">Babosa (Aloe vera)</h2>
-  <img src="images/babosa.jpg" alt="Babosa plantada em vaso" class="w-full h-auto rounded mb-4">
-  <p><strong>Origem:</strong> Norte da África</p>
-  <p><strong>Benefícios:</strong> Hidratante, regeneradora da pele, auxilia em queimaduras, feridas, caspa, acne e digestão.</p>
-  <p><strong>Como plantar:</strong> Use mudas em solo arenoso, regue a cada 3 dias, mantenha em local com luz solar direta. Evite encharcamento.</p>
-  <p><strong>Onde encontrar:</strong> Lojas naturais, feiras livres e <a class="text-blue-600 underline" href="https://www.tocaorganicos.com.br">Toca Orgânicos</a>.</p>
-  <p><strong>Referência:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/29206460/" class="text-blue-600 underline">PubMed ID: 29206460</a></p>
+<!-- BABOSA -->
+<section class="bg-white rounded-xl shadow-lg p-6">
+  <img src="images/babosa.jpg" alt="Babosa" class="rounded-xl w-full h-auto mb-4">
+  <h2 class="text-3xl font-bold text-green-800 mb-2">Babosa (Aloe vera)</h2>
+  <h3 class="text-xl font-semibold mt-4">Origem</h3>
+  <p>Norte da África, amplamente cultivada em regiões tropicais do Brasil e sul de Portugal.</p>
+  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
+  <p>Gel usado para queimaduras, pele, cabelo, digestão. Tem propriedades antimicrobianas e regeneradoras.</p>
+  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
+  <p>Vasos com areia e boa drenagem. Sol direto. Regar apenas quando solo estiver seco.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde encontrar</h3>
+  <p><a href="https://mercadobiologico.pt">mercadobiologico.pt</a> (PT) e <a href="https://tocaorganicos.com.br">tocaorganicos.com.br</a> (BR).</p>
+  <h3 class="text-xl font-semibold mt-4">Onde comprar</h3>
+  <p><a href="https://celeiro.pt">Celeiro</a> (PT), <a href="https://dermaclub.com.br">DermaClub</a> (BR).</p>
 </section>
 
-<!-- 3. Erva-cidreira -->
-<section class="bg-white rounded-lg shadow p-6">
-  <h2 class="text-2xl font-bold mb-2">Erva-cidreira (Melissa officinalis)</h2>
-  <img src="images/ervacidreira.jpg" alt="Erva-cidreira plantada em jardim" class="w-full h-auto rounded mb-4">
-  <p><strong>Origem:</strong> Europa e Ásia</p>
-  <p><strong>Benefícios:</strong> Calmante, alivia ansiedade, insônia, dores de cabeça e tensão muscular. Tem ação antiviral e antioxidante.</p>
-  <p><strong>Como plantar:</strong> Semeie em solo fértil, mantenha meia sombra, regas diárias moderadas. Crescimento rápido.</p>
-  <p><strong>Onde encontrar:</strong> <a class="text-blue-600 underline" href="https://www.isla.com.br">Isla Sementes</a> ou viveiros locais.</p>
-  <p><strong>Referência:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/23320009/" class="text-blue-600 underline">PubMed ID: 23320009</a></p>
+<!-- ERVA-CIDREIRA -->
+<section class="bg-white rounded-xl shadow-lg p-6">
+  <img src="images/erva-cidreira.jpg" alt="Erva-cidreira" class="rounded-xl w-full h-auto mb-4">
+  <h2 class="text-3xl font-bold text-green-800 mb-2">Erva-cidreira (Melissa officinalis)</h2>
+  <h3 class="text-xl font-semibold mt-4">Origem</h3>
+  <p>Regiões mediterrâneas da Europa, muito cultivada em Portugal e Sul do Brasil.</p>
+  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
+  <p>Relaxante natural, utilizada em chás para ansiedade, insônia, problemas digestivos e TPM. Propriedades sedativas reconhecidas.</p>
+  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
+  <p>Sombra parcial, solo fértil e úmido. Cresce bem em vasos ou canteiros. Regas frequentes, colheita após 2 meses.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde encontrar</h3>
+  <p><a href="https://sementesvivas.bio">sementesvivas.bio</a> (PT) e <a href="https://plantei.com.br">plantei.com.br</a> (BR).</p>
+  <h3 class="text-xl font-semibold mt-4">Onde comprar</h3>
+  <p><a href="https://mundoverde.com.br">Mundo Verde</a>.</p>
 </section>
 
-<!-- 4. Hortelã -->
-<section class="bg-white rounded-lg shadow p-6">
-  <h2 class="text-2xl font-bold mb-2">Hortelã (Mentha piperita)</h2>
-  <img src="images/hortela.jpg" alt="Folhas de hortelã frescas" class="w-full h-auto rounded mb-4">
-  <p><strong>Origem:</strong> Europa e América do Norte</p>
-  <p><strong>Benefícios:</strong> Digestiva, alivia náuseas, gases, cólicas, além de efeito refrescante e ação antibacteriana.</p>
-  <p><strong>Como plantar:</strong> Use mudas em solo úmido e fértil, mantenha meia sombra e regue constantemente.</p>
-  <p><strong>Onde encontrar:</strong> Feiras locais, mercados e <a class="text-blue-600 underline" href="https://www.raizs.com.br">Raízs</a>.</p>
-  <p><strong>Referência:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/16767798/" class="text-blue-600 underline">PubMed ID: 16767798</a></p>
+<!-- HORTELÃ -->
+<section class="bg-white rounded-xl shadow-lg p-6">
+  <img src="images/hortela.jpg" alt="Hortelã" class="rounded-xl w-full h-auto mb-4">
+  <h2 class="text-3xl font-bold text-green-800 mb-2">Hortelã (Mentha spicata)</h2>
+  <h3 class="text-xl font-semibold mt-4">Origem</h3>
+  <p>Europa, Ásia e África do Norte. Cresce bem em todo território português e brasileiro.</p>
+  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
+  <p>Alívio de náuseas, dores de cabeça, cólicas, congestão nasal. Muito usada em chás e xaropes.</p>
+  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
+  <p>Sombra parcial, solo úmido. Muito invasiva, ideal plantar em vasos. Crescimento rápido e fácil manutenção.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde encontrar</h3>
+  <p>Feiras, hortas urbanas e lojas de plantas. Sites como <a href="https://celeiro.pt">celeiro.pt</a> e <a href="https://plantei.com.br">plantei.com.br</a>.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde comprar</h3>
+  <p>Chás, óleos e sprays com hortelã disponíveis em casas naturais.</p>
 </section>
 
-<!-- 5. Urtiga -->
-<section class="bg-white rounded-lg shadow p-6">
-  <h2 class="text-2xl font-bold mb-2">Urtiga (Urtica dioica)</h2>
-  <img src="images/urtiga.jpg" alt="Folhas de urtiga verde" class="w-full h-auto rounded mb-4">
-  <p><strong>Origem:</strong> Europa e América do Norte</p>
-  <p><strong>Benefícios:</strong> Anti-inflamatória, combate dores articulares, artrite, alergias sazonais e doenças do trato urinário.</p>
-  <p><strong>Como plantar:</strong> Solo rico em matéria orgânica, sombra parcial, regue 3x por semana. Cuidado com os pelos urticantes.</p>
-  <p><strong>Onde encontrar:</strong> Casas de produtos naturais, farmácias vivas ou <a class="text-blue-600 underline" href="https://www.bioterra.com.br">Bioterra</a>.</p>
-  <p><strong>Referência:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/19140159/" class="text-blue-600 underline">PubMed ID: 19140159</a></p>
+<!-- URTIGA -->
+<section class="bg-white rounded-xl shadow-lg p-6">
+  <img src="images/urtiga.jpg" alt="Urtiga" class="rounded-xl w-full h-auto mb-4">
+  <h2 class="text-3xl font-bold text-green-800 mb-2">Urtiga (Urtica dioica)</h2>
+  <h3 class="text-xl font-semibold mt-4">Origem</h3>
+  <p>Europa, Ásia e América do Norte. Encontrada em zonas úmidas e sombreadas de Portugal e Sul/Sudeste do Brasil.</p>
+  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
+  <p>Rica em ferro, usada no tratamento de anemia, artrite, retenção de líquidos e como tônico capilar. Pode ser consumida em chás e sopas.</p>
+  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
+  <p>Solo fértil e úmido, sombra parcial. Cuidado ao manusear: folhas urticantes devem ser colhidas com luvas. Cresce rapidamente.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde encontrar</h3>
+  <p>Plantas silvestres ou sementes em lojas especializadas. Em Portugal: <a href="https://sementesvivas.bio">sementesvivas.bio</a>.</p>
+  <h3 class="text-xl font-semibold mt-4">Onde comprar</h3>
+  <p>Chás e cápsulas em <a href="https://celeiro.pt">celeiro.pt</a> e <a href="https://mundoverde.com.br">mundoverde.com.br</a>.</p>
 </section>
 
-<!-- Placeholder para mais 5 plantas -->
-<p class="text-center text-gray-500 italic">(Mais 5 plantas estão em produção e serão adicionadas nas próximas atualizações)</p>
-
-  </main>  <footer class="bg-green-800 text-white text-center p-4 mt-16">
-    <p>&copy; 2025 Plantas Medicinais do Mundo | Conteúdo educativo com imagens autorais ou geradas por IA</p>
+  </main>  <footer class="bg-green-800 text-white text-center py-4 mt-10">
+    <p>&copy; 2025 Plantas Medicinais BR+PT | Conteúdo educativo e imagens próprias ou geradas com IA</p>
   </footer>
 </body>
 </html>
