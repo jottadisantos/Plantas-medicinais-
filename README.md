@@ -9,69 +9,37 @@
   <header class="bg-green-800 text-white p-6 shadow">
     <div class="max-w-5xl mx-auto">
       <h1 class="text-3xl font-bold">Plantas Medicinais do Mundo</h1>
-      <p class="text-green-200">Descubra o poder da natureza com base científica</p>
+      <p class="text-green-200">Explorando a natureza com base científica</p>
     </div>
-  </header>  <main class="max-w-5xl mx-auto p-6 space-y-10">
-    <section>
-      <h2 class="text-2xl font-semibold mb-4">Catálogo de Plantas</h2><!-- CAMOMILA -->
-  <div class="bg-white shadow p-4 rounded-lg">
-    <h3 class="text-xl font-bold">Camomila (Matricaria chamomilla)</h3>
-    <p><strong>Origem:</strong> Europa e Ásia Ocidental</p>
-    <p><strong>Benefícios:</strong> Calmante natural, ajuda no sono, ansiedade e problemas digestivos.</p>
-    <p><strong>Uso:</strong> Infusão (chá), óleo essencial, compressas.</p>
-    <p><strong>Como plantar:</strong> Solo leve e bem drenado, sol pleno, regas leves diárias.</p>
-    <p><strong>Onde encontrar:</strong> Farmácias naturais, lojas online, feiras orgânicas.</p>
-    <p><strong>Referência:</strong> [PubMed ID: 17533644]</p>
-  </div>
-
-  <!-- BABOSA -->
-  <div class="bg-white shadow p-4 rounded-lg">
-    <h3 class="text-xl font-bold">Babosa (Aloe vera)</h3>
-    <p><strong>Origem:</strong> Norte da África</p>
-    <p><strong>Benefícios:</strong> Cicatrizante, hidratante, ajuda em queimaduras, feridas e acne.</p>
-    <p><strong>Uso:</strong> Gel da folha, suco diluído, uso tópico.</p>
-    <p><strong>Como plantar:</strong> Solo arenoso, pouca água, gosta de sol direto.</p>
-    <p><strong>Onde encontrar:</strong> Hortas, floriculturas, quintais.</p>
-    <p><strong>Referência:</strong> [PubMed ID: 29206460]</p>
-  </div>
-
-  <!-- GENGIBRE -->
-  <div class="bg-white shadow p-4 rounded-lg">
-    <h3 class="text-xl font-bold">Gengibre (Zingiber officinale)</h3>
-    <p><strong>Origem:</strong> Ásia Tropical</p>
-    <p><strong>Benefícios:</strong> Anti-inflamatório, antiemético (contra enjoo), melhora digestão.</p>
-    <p><strong>Uso:</strong> Chá, ralado em sucos, cápsulas.</p>
-    <p><strong>Como plantar:</strong> Rizoma em solo úmido, quente, com sombra parcial.</p>
-    <p><strong>Onde encontrar:</strong> Mercados, feiras, viveiros.</p>
-    <p><strong>Referência:</strong> [PubMed ID: 12775191]</p>
-  </div>
-
-  <!-- HORTELÃ -->
-  <div class="bg-white shadow p-4 rounded-lg">
-    <h3 class="text-xl font-bold">Hortelã (Mentha piperita)</h3>
-    <p><strong>Origem:</strong> Europa</p>
-    <p><strong>Benefícios:</strong> Digestivo, alívio de náuseas, ação antiespasmódica.</p>
-    <p><strong>Uso:</strong> Chá, óleo essencial, folhas frescas.</p>
-    <p><strong>Como plantar:</strong> Solo úmido e fértil, meia sombra, regas frequentes.</p>
-    <p><strong>Onde encontrar:</strong> Mercados, hortas, lojas de tempero.</p>
-    <p><strong>Referência:</strong> [PubMed ID: 16767798]</p>
-  </div>
-
-  <!-- URTIGA -->
-  <div class="bg-white shadow p-4 rounded-lg">
-    <h3 class="text-xl font-bold">Urtiga (Urtica dioica)</h3>
-    <p><strong>Origem:</strong> Europa, Ásia e América do Norte</p>
-    <p><strong>Benefícios:</strong> Anti-inflamatória, útil para alergias, dores articulares e rins.</p>
-    <p><strong>Uso:</strong> Chá, cápsulas, compressas.</p>
-    <p><strong>Como plantar:</strong> Solo rico em nitrogênio, sol parcial, cuidado com contato direto.</p>
-    <p><strong>Onde encontrar:</strong> Ambientes úmidos, lojas naturais.</p>
-    <p><strong>Referência:</strong> [PubMed ID: 19140159]</p>
-  </div>
-
-</section>
+  </header>  <main class="max-w-5xl mx-auto p-6 space-y-12">
+    <!-- CAMOMILA COMPLETA -->
+    <section class="bg-white rounded-lg shadow p-6">
+      <h2 class="text-2xl font-bold mb-2">Camomila (Matricaria chamomilla)</h2>
+      <img src="camomila-autoral.jpg" alt="Camomila fresca colhida" class="w-full h-auto rounded mb-4">
+      <p><strong>Origem:</strong> Europa e Ásia Ocidental</p>
+      <p><strong>Benefícios detalhados:</strong> Reduz inflamação, atua como leve sedativo natural, excelente para insônia e ansiedade. Estudos também mostram efeito positivo em cólicas menstruais e síndrome do intestino irritável.</p>
+      <p><strong>Como usar:</strong> Chá das flores secas, óleo essencial em difusores, banhos de imersão.</p>
+      <p><strong>Como plantar (guia prático):</strong>
+        <ul class="list-disc list-inside ml-4">
+          <li>Use sementes orgânicas em solo leve e bem drenado.</li>
+          <li>Plante em local ensolarado, com 4-6 horas de sol por dia.</li>
+          <li>Mantenha a terra úmida, mas não encharcada.</li>
+          <li>Colha as flores quando estiverem totalmente abertas.</li>
+        </ul>
+      </p>
+      <p><strong>Onde comprar:</strong>
+        <ul class="list-disc list-inside ml-4">
+          <li><a href="https://www.plantei.com.br/camomila" class="text-blue-600 underline">Plantei.com.br</a></li>
+          <li><a href="https://www.isla.com.br/produto/semente-de-camomila" class="text-blue-600 underline">Isla Sementes</a></li>
+          <li>Feiras livres e casas de produtos naturais em SP e RJ</li>
+        </ul>
+      </p>
+      <p><strong>Referência científica:</strong> <a href="https://pubmed.ncbi.nlm.nih.gov/17533644/" class="text-blue-600 underline">PubMed ID: 17533644</a></p>
+    </section><!-- Outras plantas seguem estrutura semelhante -->
+<p class="italic text-sm text-gray-600">(Outras plantas serão adicionadas seguindo esse modelo detalhado)</p>
 
   </main>  <footer class="bg-green-800 text-white text-center p-4 mt-10">
-    <p>&copy; 2025 Plantas Medicinais do Mundo | Projeto educacional com base científica</p>
+    <p>&copy; 2025 Plantas Medicinais do Mundo | Conteúdo educativo com imagens autorais ou geradas com IA</p>
   </footer>
 </body>
 </html>
