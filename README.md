@@ -4,94 +4,118 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plantas Medicinais - Brasil & Portugal</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    .planta-card:hover {
+      transform: scale(1.02);
+      transition: transform 0.3s ease;
+    }
+  </style>
 </head>
 <body class="bg-green-50 text-gray-900">
   <header class="bg-green-800 text-white py-6 px-4 shadow">
     <div class="max-w-7xl mx-auto">
-      <h1 class="text-4xl font-bold">Plantas Medicinais do Brasil e Portugal</h1>
-      <p class="text-green-200 mt-2">Tudo sobre o uso, cultivo e curiosidades das plantas que curam</p>
+      <h1 class="text-4xl font-bold">Enciclopédia de Plantas Medicinais</h1>
+      <p class="text-green-200 mt-2 text-lg">Descubra os segredos da natureza que promovem saúde e bem-estar</p>
     </div>
-  </header>  <main class="max-w-7xl mx-auto px-4 py-10 space-y-20"><!-- INTRODUÇÃO NOVA SESSÃO -->
-<section class="bg-yellow-100 rounded-xl shadow-lg p-6">
-  <h2 class="text-3xl font-bold text-green-900 mb-4">Combinações de Plantas para Ansiedade, Depressão e Ânimo</h2>
-  <p>Estas combinações foram feitas com base em evidências de uso tradicional e estudos científicos. São opções naturais para auxiliar no bem-estar emocional e mental, com responsabilidade e sem substituir tratamentos médicos.</p>
+  </header>  <main class="max-w-7xl mx-auto px-4 py-10 space-y-16">
+    <section>
+      <h2 class="text-3xl font-bold text-green-900 mb-8">10 Plantas Poderosas para Corpo e Mente</h2>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10"><!-- CARD EXEMPLO DE PLANTA -->
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/camomila.jpg" alt="Camomila" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Camomila (Matricaria chamomilla)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Flor medicinal amplamente conhecida por seus efeitos calmantes e anti-inflamatórios. Popular em infusões e óleos.</p>
+        <a href="plantas/camomila.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/babosa.jpg" alt="Babosa" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Babosa (Aloe vera)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Muito usada para tratamentos de pele e queimaduras, a babosa é um cicatrizante natural e hidratante poderoso.</p>
+        <a href="plantas/babosa.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/hortela.jpg" alt="Hortelã" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Hortelã (Mentha piperita)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Refrescante e digestiva, a hortelã alivia náuseas e dores estomacais. Também usada para aliviar dor de cabeça e sinusite.</p>
+        <a href="plantas/hortela.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/erva-cidreira.jpg" alt="Erva-cidreira" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Erva-cidreira (Melissa officinalis)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Calmante natural, indicada para ansiedade e insônia. Também possui leve efeito antiviral e antioxidante.</p>
+        <a href="plantas/erva-cidreira.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/urtiga.jpg" alt="Urtiga" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Urtiga (Urtica dioica)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Rica em minerais, é anti-inflamatória, excelente para articulações e sistema urinário. Requer preparo correto para consumo.</p>
+        <a href="plantas/urtiga.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/alecrim.jpg" alt="Alecrim" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Alecrim (Rosmarinus officinalis)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Estimulante natural, usado para foco, memória e ânimo. Possui efeito antibacteriano e melhora a circulação.</p>
+        <a href="plantas/alecrim.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/lavanda.jpg" alt="Lavanda" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Lavanda (Lavandula angustifolia)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Acalma o sistema nervoso e promove sono reparador. Muito usada na aromaterapia e em óleos essenciais calmantes.</p>
+        <a href="plantas/lavanda.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/passiflora.jpg" alt="Passiflora" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Passiflora (Passiflora incarnata)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Flor do maracujá. Usada para tratar distúrbios do sono, estresse e ansiedade moderada. Efeitos cientificamente comprovados.</p>
+        <a href="plantas/passiflora.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/mulungu.jpg" alt="Mulungu" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Mulungu (Erythrina mulungu)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Calmante potente usado tradicionalmente contra insônia e tensão. Uso controlado é recomendado.</p>
+        <a href="plantas/mulungu.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+    <div class="bg-white rounded-xl shadow-lg overflow-hidden planta-card">
+      <img src="images/capim-santo.jpg" alt="Capim-santo" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="text-xl font-bold text-green-800">Capim-santo (Cymbopogon citratus)</h3>
+        <p class="mt-2 text-gray-700 text-sm">Excelente para ansiedade, digestão e dores de cabeça. Muito usado em chás no Brasil e Portugal.</p>
+        <a href="plantas/capim-santo.html" class="inline-block mt-4 text-green-700 font-semibold hover:underline">Saiba mais</a>
+      </div>
+    </div>
+
+  </div>
 </section>
 
-<!-- PASSIFLORA -->
-<section class="bg-white rounded-xl shadow-lg p-6">
-  <img src="images/passiflora.jpg" alt="Passiflora" class="rounded-xl w-full h-auto mb-4">
-  <h2 class="text-3xl font-bold text-green-800 mb-2">Passiflora (Passiflora incarnata)</h2>
-  <h3 class="text-xl font-semibold mt-4">Origem</h3>
-  <p>América do Sul. Cresce no Brasil e Portugal.</p>
-  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
-  <p>Calmante, eficaz contra ansiedade leve, distúrbios do sono e estresse. Pode ser usada com camomila para potencializar os efeitos.</p>
-  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
-  <p>Prefere sol pleno, solo fértil e bem drenado. Planta trepadeira, cresce bem com suporte.</p>
-</section>
-
-<!-- LAVANDA -->
-<section class="bg-white rounded-xl shadow-lg p-6">
-  <img src="images/lavanda.jpg" alt="Lavanda" class="rounded-xl w-full h-auto mb-4">
-  <h2 class="text-3xl font-bold text-green-800 mb-2">Lavanda (Lavandula angustifolia)</h2>
-  <h3 class="text-xl font-semibold mt-4">Origem</h3>
-  <p>Região do Mediterrâneo. Muito cultivada em Portugal.</p>
-  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
-  <p>Redução de ansiedade, melhora da qualidade do sono, antidepressivo leve. Pode ser combinada com melissa e passiflora.</p>
-  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
-  <p>Sol pleno, solo seco e arenoso. Pouca rega. Pode ser cultivada em vasos.</p>
-</section>
-
-<!-- ALECRIM -->
-<section class="bg-white rounded-xl shadow-lg p-6">
-  <img src="images/alecrim.jpg" alt="Alecrim" class="rounded-xl w-full h-auto mb-4">
-  <h2 class="text-3xl font-bold text-green-800 mb-2">Alecrim (Rosmarinus officinalis)</h2>
-  <h3 class="text-xl font-semibold mt-4">Origem</h3>
-  <p>Região do Mediterrâneo.</p>
-  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
-  <p>Estimulante natural, melhora concentração, alivia fadiga mental e pode ajudar contra depressão leve. Ótimo combinado com hortelã.</p>
-  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
-  <p>Sol direto, solo seco. Cresce bem em qualquer lugar. Poucas regas. Muito resistente.</p>
-</section>
-
-<!-- MULUNGU -->
-<section class="bg-white rounded-xl shadow-lg p-6">
-  <img src="images/mulungu.jpg" alt="Mulungu" class="rounded-xl w-full h-auto mb-4">
-  <h2 class="text-3xl font-bold text-green-800 mb-2">Mulungu (Erythrina mulungu)</h2>
-  <h3 class="text-xl font-semibold mt-4">Origem</h3>
-  <p>Brasil.</p>
-  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
-  <p>Calmante potente, indicado para ansiedade intensa, estresse e insônia grave. Deve ser usado com moderação.</p>
-  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
-  <p>Árvore de grande porte. Ideal em solos úmidos e com bastante espaço.</p>
-</section>
-
-<!-- CACAU -->
-<section class="bg-white rounded-xl shadow-lg p-6">
-  <img src="images/cacau.jpg" alt="Cacau" class="rounded-xl w-full h-auto mb-4">
-  <h2 class="text-3xl font-bold text-green-800 mb-2">Cacau (Theobroma cacao)</h2>
-  <h3 class="text-xl font-semibold mt-4">Origem</h3>
-  <p>América Central e do Sul.</p>
-  <h3 class="text-xl font-semibold mt-4">Uso medicinal</h3>
-  <p>Fonte de teobromina e triptofano, estimula produção de serotonina. Aumenta o humor e energia. Pode ser combinado com canela.</p>
-  <h3 class="text-xl font-semibold mt-4">Como plantar</h3>
-  <p>Clima quente e úmido, sombra parcial. Precisa de solo fértil e úmido. Cultivo mais indicado no Brasil.</p>
-</section>
-
-<!-- MISTURAS RECOMENDADAS -->
-<section class="bg-yellow-100 rounded-xl shadow-lg p-6">
-  <h2 class="text-3xl font-bold text-green-900 mb-4">Misturas terapêuticas recomendadas</h2>
-  <ul class="list-disc ml-6 space-y-2">
-    <li><strong>Ansiedade leve:</strong> Camomila + Melissa + Lavanda</li>
-    <li><strong>Insônia:</strong> Passiflora + Mulungu (em dose pequena)</li>
-    <li><strong>Tristeza persistente:</strong> Alecrim + Hortelã + Cacau</li>
-    <li><strong>Ânimo e foco:</strong> Alecrim + Hortelã + Canela</li>
-    <li><strong>Relaxamento noturno:</strong> Lavanda + Camomila + Maracujá</li>
-  </ul>
-  <p class="mt-4">Sempre consulte um fitoterapeuta ou médico se estiver em uso de medicamentos ou tratando de condições clínicas.</p>
-</section>
-
-  </main>  <footer class="bg-green-800 text-white text-center py-4 mt-10">
-    <p>&copy; 2025 Plantas Medicinais BR+PT | Conteúdo educativo e imagens próprias ou geradas com IA</p>
+  </main>  <footer class="bg-green-800 text-white text-center py-6 mt-20">
+    <p>&copy; 2025 Plantas Medicinais BR+PT | Conteúdo educativo, imagens próprias ou geradas com IA</p>
   </footer>
 </body>
 </html>
